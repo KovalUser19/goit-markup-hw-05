@@ -610,7 +610,12 @@ border-bottom: 1px solid var(--cornflower);
   margin-left: 80px;
 }
 .form-mail{
-  padding: 0;
+  font-size: 12px;
+  padding-left: 16px;
+  line-height: 1.5;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  letter-spacing: 0.48px;
+  color: var(--white, #FFF);
   width: 264px;
   height: 40px;
   flex-shrink: 0;
@@ -621,11 +626,14 @@ border-bottom: 1px solid var(--cornflower);
 }
 
 .subscribe-button {
+  min-width: 165px;
+  height: 40px;
   color: var(--white, #FFF);
   text-align: center;
   font-size: 16px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
+  cursor: pointer;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
@@ -636,20 +644,15 @@ border-bottom: 1px solid var(--cornflower);
   gap: 16px;
   border-radius: 4px;
   background: var(--iris, #4D5AE5);
+  border: none;
 }
 
 .icon-subscribe {
-
+margin-left: 16px;
 }
 .form-mail::placeholder{
-  padding-left: 16px;
   color: var(--white, #FFF);
-    font-size: 12px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.15;
-    letter-spacing: 0.48px;
+
 }
 
  /*  Modal window/  */
