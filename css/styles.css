@@ -676,7 +676,7 @@ margin-left: 16px;
   position: absolute;
   top: 50%;
   left: 50%;
-  padding: 0 24px;
+  padding: 72px 24px 24px 24px;
   transform: translate(-50%, -50%) scale(1);
   width: 408px;
   min-height: 584px;
@@ -724,7 +724,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill:#FFFFFF;
 }
 
-/*BLOK FORM*/
+/*BLOK MODAL-FORM*/
 
 .modal-title{
   display: block;
@@ -733,9 +733,10 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin: 72px 0 16px 0;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   color: var(--navyblue, #2E2F42);
   text-align: center;
+  margin-bottom: 16px;
 }
 .modal-form-span{
   display: block;
@@ -768,6 +769,9 @@ border: 1px solid #4D5AE5;
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
+}
+.modal-container{
+  margin-bottom: 8px;
 }
 .modal-form-lable{
   position: relative;
