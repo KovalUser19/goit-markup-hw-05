@@ -428,9 +428,12 @@
             </li>
           </ul>
         </div>
+
+        <!-- BLOK FOOTER-FORM-->
+
         <div class="subscribe-container">
           <p class="subscribe-title">Subscribe</p>
-          <form class="footer-form" name="Subscribe" autocomplete="off" novalidate>
+          <form class="footer-form" name="subscribe_form" autocomplete="off" novalidate>
             <label class="footer-label">
               <input class="form-mail" type="mail" name="email_address" placeholder="E-mail" />
             </label>
@@ -455,8 +458,10 @@
           </svg>
         </button>
 
+        <!--BLOK MODAL-FORM-->
+
         <strong class="modal-title">Leave your contacts and we will call you back</strong>
-        <form class="modal-form">
+        <form class="modal-form" name="service_form">
           <label class="modal-form-lable">
             <span class="modal-form-span">Name</span>
             <input class="modal-form-input" type="text" name="user_name" autofocus />
@@ -480,7 +485,27 @@
           </label>
           <label class="modal-form-lable">
             <span class="modal-form-span">Comment</span>
-            <textarea class="modal-form-textaria" name="" placeholder="Text input"></textarea>
+            <textarea
+              class="modal-form-textaria"
+              name="user_comment"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+          <label class="modal-form-agreement">
+            <input
+              class="modal-form-checkbox visually-hidden"
+              type="checkbox"
+              name="user_checkbox"
+            />
+            <span class="modal-form-custom-checkbox">
+              <svg class="modal-form-checkbox-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-Checkmark"></use>
+              </svg>
+            </span>
+            <span class="modal-form-textaria-span"
+              >I accept the terms and conditions of the
+              <a class="modal-form-textaria-link" href="#">Privacy Policy</a>
+            </span>
           </label>
           <button class="button-hero" type="submit">Send</button>
         </form>
