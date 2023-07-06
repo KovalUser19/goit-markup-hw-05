@@ -802,6 +802,7 @@ border: 1px solid #4D5AE5;
   align-items: center;
   gap: 8px;
   margin-bottom: 24px;
+
 }
 .modal-form-agreement + .button-hero {
   margin-bottom: 24px;
@@ -828,4 +829,11 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form-checkbox:checked + .modal-form-custom-checkbox > .modal-form-checkbox-icon{
   opacity: 1;
+}
+.modal-form-textaria-span{
+color: #8E8F99;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.48px;
 }
